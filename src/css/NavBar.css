@@ -12,19 +12,19 @@
   font-weight: bold;
 }
 
-.navbar-links {
+.navbar-link {
   display: flex;
   gap: 2rem;
 }
 
-.nav-link {
+.navbar-link {
   font-size: 1rem;
   padding: 0.5rem 1rem;
   border-radius: 4px;
   transition: background-color 0.2s;
 }
 
-.nav-link:hover {
+.navbar-link:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -37,11 +37,11 @@
     font-size: 1.2rem;
   }
 
-  .navbar-links {
+  .navbar-link {
     gap: 1rem;
   }
 
-  .nav-link {
+  .navbar-link {
     padding: 0.5rem;
   }
 }
